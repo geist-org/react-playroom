@@ -3,6 +3,7 @@ module.exports = {
   snippets: "./snippets/index.ts",
   outputPath: "./dist",
   openBrowser: false,
+  frameComponent: "./components/FrameComponent.tsx",
   webpackConfig: () => ({
     module: {
       rules: [
