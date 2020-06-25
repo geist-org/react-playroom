@@ -1,5 +1,9 @@
 import React from "react";
+import { ZeitProvider, CssBaseline } from "@zeit-ui/react";
 
 export default ({ theme, children }) => (
-  <div style={{ border: "1px solid red" }}>{children}</div>
+  <React.Fragment>
+    <CssBaseline />
+    <ZeitProvider theme={theme || { type: "light" }}>{children}</ZeitProvider>
+  </React.Fragment>
 );

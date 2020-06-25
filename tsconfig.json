@@ -5,10 +5,6 @@
     "strict": true,
     "jsx": "preserve"
   },
-  "include": [
-    "components/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["components/**/*"],
+  "exclude": ["node_modules"]
 }
