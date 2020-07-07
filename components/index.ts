@@ -46,4 +46,4 @@ export {
   ButtonGroup,
   Breadcrumbs,
   Pagination,
-} from "@zeit-ui/react";
+} from '@zeit-ui/react'
