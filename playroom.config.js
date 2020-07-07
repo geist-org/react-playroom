@@ -1,11 +1,20 @@
 module.exports = {
+  title: 'React - ZEIT UI',
   components: './components/index.ts',
   snippets: './snippets/index.ts',
   themes: './themes/index.ts',
   outputPath: './dist',
   openBrowser: false,
-  frameComponent: './components/FrameComponent.tsx',
+  widths: [375, 740, 1024],
+  frameComponent: './components/frame-component.tsx',
   typeScriptFiles: ['src/components/**/*.{ts,tsx}', '!**/node_modules'],
+  exampleCode: `
+    <Page>
+      <Card>
+        <Text>Hello, <Code>@zeit-ui/react</Code> app.</Text>
+      </Card>
+    </Page>
+  `,
   webpackConfig: () => ({
     module: {
       rules: [
