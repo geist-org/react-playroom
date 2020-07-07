@@ -1,59 +1,59 @@
-import dedent from "dedent";
+import dedent from 'dedent'
 
 export default [
   {
-    group: "Button",
-    name: "Default",
+    group: 'Button',
+    name: 'Default',
     code: dedent`
       <Button>Hello</Button>
     `,
   },
   {
-    group: "Button",
-    name: "Mini",
+    group: 'Button',
+    name: 'Mini',
     code: dedent`
       <Button size="mini">Hello</Button>
     `,
   },
   {
-    group: "Button",
-    name: "Loading",
+    group: 'Button',
+    name: 'Loading',
     code: dedent`
       <Button loading>Hello</Button>
     `,
   },
   {
-    group: "Button",
-    name: "Disabled",
+    group: 'Button',
+    name: 'Disabled',
     code: dedent`
       <Button disabled>Hello</Button>
     `,
   },
   {
-    group: "Button",
-    name: "Shadow",
+    group: 'Button',
+    name: 'Shadow',
     code: dedent`
       <Button shadow type="secondary">Hello</Button>
     `,
   },
   {
-    group: "Spacer",
-    name: "Y",
+    group: 'Spacer',
+    name: 'Y',
     code: dedent`  <Spacer y={.5} />`,
   },
   {
-    group: "Card",
-    name: "Basic",
+    group: 'Card',
+    name: 'Basic',
     code: dedent`<Card></Card>`,
   },
   {
-    group: "Card",
-    name: "Hoverable",
+    group: 'Card',
+    name: 'Hoverable',
     code: dedent`<Card hoverable></Card>`,
   },
   {
-    group: "Card",
-    name: "Shadow",
+    group: 'Card',
+    name: 'Shadow',
     code: dedent`<Card shadow></Card>`,
   },
-];
+]

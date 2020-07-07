@@ -2133,6 +2133,11 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
+"@zeit-ui/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@zeit-ui/prettier-config/-/prettier-config-1.0.0.tgz#ddca25c4d22d4ceda25623ce56f6bd3fbba5b1fa"
+  integrity sha512-wdMT4nsbllDdCyGb4EcYbySI9fNSwAc+WChl/Be9po4ZDLuQ0xZlcUF4d0YZXMDuWOnahCFoUFEfO5Wdt+Z5fw==
+
 "@zeit-ui/react@1.8.0-canary.4":
   version "1.8.0-canary.4"
   resolved "https://registry.yarnpkg.com/@zeit-ui/react/-/react-1.8.0-canary.4.tgz#7f7b3e692d7f76cda93c02841cd122421d90dc96"

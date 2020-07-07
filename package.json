@@ -5,16 +5,20 @@
   "description": "TypeScript example for Zeit Design System",
   "scripts": {
     "dev": "playroom start",
-    "build": "playroom build"
+    "build": "playroom build",
+    "prettier": "prettier --write ."
   },
   "license": "MIT",
+  "prettier": "@zeit-ui/prettier-config",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@zeit-ui/prettier-config": "^1.0.0",
     "babel-loader": "^8.1.0",
-    "dedent": "^0.7.0"
+    "dedent": "^0.7.0",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
     "@zeit-ui/react": "1.8.0-canary.4",
