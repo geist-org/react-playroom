@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'React - ZEIT UI',
+  title: 'React - Geist UI',
   components: './components/index.ts',
   snippets: './snippets/index.ts',
   themes: './themes/index.ts',
@@ -11,7 +11,7 @@ module.exports = {
   exampleCode: `
     <Page>
       <Card>
-        <Text>Hello, <Code>@zeit-ui/react</Code> app.</Text>
+        <Text>Hello, Geist React app.</Text>
       </Card>
     </Page>
   `,

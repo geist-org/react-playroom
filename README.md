@@ -1,7 +1,7 @@
-# Zeit Playroom
+# Geist Playroom
 
-A [Playroom](https://github.com/seek-oss/playroom) for [`@zeit-ui/react`](https://react.zeit-ui.co/).
+A [Playroom](https://github.com/seek-oss/playroom) for [Geist React](https://react.geist-ui.dev/).
 
 ## LICENSE
 
-[MIT](https://github.com/zeit-ui/react/blob/master/LICENSE)
+[MIT](https://github.com/geist-org/react/blob/master/LICENSE)
